@@ -1,0 +1,53 @@
+body{
+	background-color: #F3F3F3;
+}
+
+.selection{
+	border-bottom: 5px solid;
+	list-style: none;
+	margin: auto;
+	padding: auto;
+	font-family: arial;
+	font-size: 25px;
+}
+.selection li{
+	display: inline-block;
+}
+.selection li a{
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+.selection li.active a{
+	border: 1px solid;
+}
+.selection li a:hover{
+	border: 1px solid;
+}
+.pakyo{
+	border-radius: 5px;
+    background-color: #E1E1E1;
+    padding: 20px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0px;
+    border: 1px solid #F3F3F3;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0px;
+    border: 1px solid #F3F3F3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #1B1B1B;
+    color: white;
+}
+.aaa{
+	font-family: arial;
+	text-align: center;
+}

@@ -1,0 +1,87 @@
+body{
+	background-color: #F3F3F3;
+}
+
+.selection{
+	border-bottom: 5px solid;
+	list-style: none;
+	margin: auto;
+	padding: auto;
+	font-family: arial;
+	font-size: 25px;
+}
+.selection li{
+	display: inline-block;
+}
+.selection li a{
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+.selection li.active a{
+	border: 1px solid black;
+}
+.selection li a:hover{
+	border: 1px solid black;
+}
+.one{
+	border-bottom: 1px solid;
+	font-size: 30px;
+	margin: 10px;
+	text-align: center;
+}
+.two{
+	font-size: 30px;
+	margin-left: 65px;
+}
+img{
+	width: 430px;
+	height: 400px;
+	border-radius: 100px;
+	border: 5px solid #E1E1E1;
+	float: left;
+}
+.des1{
+	font-size: 18px;
+	margin-left: 450px;
+}
+.lolamo{
+	font-size: 30px;
+	margin-left: 480px;
+	margin-top: 15px;
+}
+ul{
+    color: black; 
+    font-size: 18px;
+    margin-left: 470px;
+}
+.buy a{
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-family: arial;
+	font-size: 20px;
+	border: 1px solid black;
+	float: right;
+	margin: 10px;
+}
+.mamamu{
+	font-size: 30px;
+	margin-top: 40px;
+	margin-left: 80px;
+}
+.pak{
+	font-size: 30px;
+	margin-top: 25px;
+	margin-left: 130px;
+}
+ul.c{
+    color: black; 
+    font-size: 18px;
+    margin-left: 470px;
+}
+.pako{
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 130px;
+}
