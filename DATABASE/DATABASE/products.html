@@ -1,0 +1,33 @@
+<html>
+<head>
+       <title> Product Register
+                        </title>
+</head>
+<body>
+<br><br>
+Registration New Product  <br><br> <hr>
+<br>
+
+<h3><a href="display.php"> View All Records</a></h3>
+
+<form method="post" action="products.php"> 
+Product Name:
+<br> <input type="text" name="pn">
+<br>
+<br>
+        <label for="category">Category:</label> 
+        <select name="category" name="category"> 
+            <option value="Appliances">Appliances</option> 
+            <option value="Foods">Foods</option> 
+            <option value="Things">Things</option> 
+        </select> 
+<br><br>
+Price:
+<br> <input type="text" name="p">
+<br>
+QTY: <br> <input type="number" name="qty">
+<br><br>
+<input type="submit" value="Submit"> <input type="reset" value="Cancel" > 
+    </form> 
+</body>
+</html>
